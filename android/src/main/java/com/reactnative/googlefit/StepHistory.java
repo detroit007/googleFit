@@ -11,8 +11,8 @@
 
 package com.reactnative.googlefit;
 
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import android.util.Log;
 
 import com.facebook.react.bridge.Arguments;
@@ -166,8 +166,8 @@ public class StepHistory {
                 source.putNull("appPackage");
             }
 
-            if (dataSource.getName() != null) {
-                source.putString("name", dataSource.getName());
+            if (dataSource.getStreamName() != null) {
+                source.putString("name", dataSource.getStreamName());
             } else {
                 source.putNull("name");
             }

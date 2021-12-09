@@ -10,8 +10,7 @@
  **/
 
 package com.reactnative.googlefit;
-
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
 import android.util.Log;
 
 import com.facebook.react.bridge.Arguments;
